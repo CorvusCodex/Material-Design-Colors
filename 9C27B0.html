@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="color.png" type="image/gif" sizes="16x16">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+<meta name="viewport" content="width=device-width">
+<title>Material design color pallete</title>
+
+<style>
+body{
+padding: 0px;
+margin: 0px;
+}
+.pallete{
+display: block;
+width:100%;
+margin: 0px;
+padding: 0px;
+z-index: 10;
+
+}
+.maincolor{
+position: relative;
+display: inline-block;
+width:auto;
+min-width: 20%;
+height: 25%;
+margin: -2px!important;
+border: none!important;
+padding:0px;
+top: 0px;
+left: 0px;
+background-color: rgba(255, 255, 255, 0.3);
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+z-index: 9;
+    transition: 0.5s;
+}
+.maincolor button{
+display: block;
+position: absolute;
+bottom: 20px;
+right:0px;
+width: 100%;
+border: none;
+background-color: rgba(255, 255, 255, 0.3);
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+z-index: 99;
+}
+.maincolor p{
+color: white;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+font-size: 12px;
+}
+.maincolor:hover{
+box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    z-index: 999;
+    transition: 0.5s;
+}
+.bg1{
+background: #E1BEE7;
+}
+.bg2{
+background: #CE93D8;
+}
+.bg3{
+background: #BA68C8;
+}
+.bg4{
+background: #AB47BC;
+}
+.bg5{
+background: #9C27B0;
+}
+.bg6{
+background: #8E24AA;
+}
+.bg7{
+background: #7B1FA2;
+}
+.bg8{
+background: #6A1B9A;
+}
+.bg9{
+background: #4A148C;
+}
+    .button a{
+        display: block;
+        position: relative;
+        z-index: 999;
+    }
+    .btns{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+
+.footer-heart{text-align:center;font-family: open sans, sans-serif;}
+
+.footer-heart a{border-bottom: 1px solid #453886;color: #453886;padding-bottom: .25em; text-decoration: none;}
+
+.footer-heart a:hover{color:#2196f3; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;}
+
+.emoji{vertical-align: middle;}
+button a{
+color: #222;
+    text-decoration: none;
+    transition: 0.5s;
+}
+    button a:hover{
+        color: white;
+        transition: 0.5s;
+    }
+    .bg20{
+background: black;
+}
+</style>
+</head>
+<body>
+
+<div class="pallete">
+<div data-clipboard-text="#E1BEE7" class="maincolor bg1 btn">
+<p>#E1BEE7</p>
+</div>
+<div data-clipboard-text="#CE93D8" class="maincolor bg2 btn">
+<p>#CE93D8</p>
+</div>
+<div data-clipboard-text="#BA68C8"
+class="maincolor bg3 btn">
+<p>#BA68C8</p>
+</div>
+<div data-clipboard-text="#AB47BC"
+class="maincolor bg4 btn">
+<p>#AB47BC</p>
+</div>
+<div data-clipboard-text="#9C27B0"
+class="maincolor bg5 btn">
+<p>#9C27B0</p>
+</div>
+<div data-clipboard-text="#8E24AA"
+class="maincolor bg6 btn">
+<p>#8E24AA</p>
+</div>
+<div data-clipboard-text="#7B1FA2"
+class="maincolor bg7 btn">
+<p>#7B1FA2</p>
+</div>
+<div data-clipboard-text="#6A1B9A"
+class="maincolor bg8 btn">
+<p>#6A1B9A</p>
+</div>
+<div data-clipboard-text="#4A148C"
+class="maincolor bg9 btn">
+<p>#4A148C</p>
+</div>
+<div class="maincolor bg20">
+<p>#000000</p>
+<button><a href="index.html">HOME</a></button>
+</div>
+
+
+
+
+<script>
+var clip = new Clipboard('.btn');
+
+clip.on("success", function() {
+  alert("COPIED!");
+  
+});
+clip.on("error", function() {
+alert("ERROR!")
+});
+</script>
+
+
+<p class="footer-heart">
+  Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+<img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> by <a href="https://cornix.co">Cornix</a>
+</p>
+</div>
+</body>
+</html>
